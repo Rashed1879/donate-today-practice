@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.btn-primary {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 16px 20px;
+  color: #ffffff;
+  background: #ff5959;
+  border-radius: 5px;
+  border: 0;
+}
+/* Header Styles */
+.header {
+  background-image: url(images/donation7.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 670px;
+  margin-bottom: 130px;
+}
+.header-text {
+  text-align: center;
+  padding: 175px 308px;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.header-description {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+/* Main styles */
+.donate-today {
+  text-align: center;
+  margin-bottom: 130px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.section-description {
+  padding: 0 375px;
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 50px;
+}
+.amount-items {
+  display: flex;
+  gap: 22px;
+  justify-content: space-around;
+  padding: 0 336px;
+  margin-bottom: 60px;
+}
+.amount-item {
+  padding: 43px 25px;
+  background: #fafafa;
+  border-radius: 5px;
+  text-align: center;
+}
+.amount {
+  color: #707070;
+  font-weight: 700;
+  font-size: 30px;
+}
+.amount-item-selected {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+}
+.amount-item-selected h3 {
+  color: #ff5959;
+}
+.other-amount {
+  color: #b3b3b3;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+hr {
+  width: 765px;
+  border: 1px solid #dadada;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.donate-plan .section-title {
+  text-align: center;
+}
+.plan-items {
+  display: flex;
+  gap: 24px;
+  padding: 0 157px;
+  margin-top: 50px;
+}
+.plan-item {
+  border-radius: 5px;
+  background: rgba(79, 157, 166, 0.1);
+  padding: 60px 23px;
+}
+.item-title {
+  color: #121212;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin-bottom: 16px;
+  margin-top: 30px;
+}
+.item-description {
+  color: #707070;
+  font-family: "Poppins";
+}
+.gallery {
+  padding: 130px 157px 30px 157px;
+}
+.gallery-container {
+  display: flex;
+  gap: 83px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.gallery-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.gallery-description {
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 20px;
+}
+.get-my-up {
+  text-align: center;
+}
+.info-container {
+  padding: 76px 188px;
+  background: #fff4d6;
+  margin: 50px 315px 130px 315px;
+}
+.info-container input {
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  height: 53px;
+  border: 0;
+  padding: 0 10px;
+}
+footer {
+  background: #0b0d17;
+  text-align: center;
+  padding: 43px;
+}
+.footer-title {
+  font-family: "Lobster";
+  font-size: 36px;
+  color: #ff5959;
+  margin-bottom: 24px;
+}
+.footer-des {
+  color: #d9dbe1;
+  font-size: 14px;
+  font-family: "Manrope";
+}
