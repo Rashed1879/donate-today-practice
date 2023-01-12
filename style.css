@@ -115,14 +115,11 @@ hr {
   font-family: "Poppins";
 }
 .gallery {
-  padding: 130px 157px 30px 157px;
+  margin: 100px 157px 30px 157px;
 }
 .gallery-container {
   display: flex;
   gap: 83px;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
 }
 .gallery-title {
   font-weight: 700;
@@ -135,13 +132,24 @@ hr {
   color: #707070;
   margin-bottom: 20px;
 }
+.gallery-image,
+.gallery-info {
+  width: 50%;
+  margin-bottom: 50px;
+}
+.gallery-image img {
+  width: 100%;
+}
 .get-my-up {
   text-align: center;
 }
 .info-container {
-  padding: 76px 188px;
+  height: 200px;
   background: #fff4d6;
   margin: 50px 315px 130px 315px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .info-container input {
   background: #d9d9d9;
@@ -165,4 +173,168 @@ footer {
   color: #d9dbe1;
   font-size: 14px;
   font-family: "Manrope";
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 576px) {
+  .header {
+    background-image: none;
+    height: 200px;
+    margin-bottom: 130px;
+  }
+  .header-text {
+    text-align: center;
+    padding: 10px;
+  }
+  .header-title {
+    font-weight: 700;
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 10px;
+  }
+  .header-description {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 15px;
+  }
+  .plan-items {
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+    margin: 5px;
+  }
+  .section-description {
+    padding: 0 30px;
+  }
+  .amount-items {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .amount-item {
+    padding: 30px 5px;
+    background: #fafafa;
+    border-radius: 5px;
+    text-align: center;
+  }
+  hr {
+    width: 100%;
+    border: 1px solid #dadada;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .amount {
+    color: #707070;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  .gallery {
+    margin: 0;
+    padding: 10px;
+  }
+  .gallery-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .gallery-container img {
+    width: 100%;
+  }
+  .gallery-image,
+  .gallery-info {
+    width: 100%;
+  }
+  .section-description {
+    padding: 0 30px;
+  }
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .info-container input {
+    border-radius: 5px 0px 0px 5px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .header {
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    margin-bottom: 130px;
+  }
+  .header-text {
+    text-align: center;
+    padding: 100px 80px;
+  }
+  .header-title {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .header-description {
+    font-size: 16px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+  }
+  .plan-items {
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+    margin: 10px;
+  }
+  .section-description {
+    padding: 0 30px;
+  }
+  .amount-items {
+    gap: 10px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .amount-item {
+    padding: 20px 8px;
+    background: #fafafa;
+    border-radius: 5px;
+    text-align: center;
+  }
+  hr {
+    width: 100%;
+    border: 1px solid #dadada;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .amount {
+    color: #707070;
+    font-weight: 700;
+    font-size: 2em;
+  }
+  .gallery {
+    margin: 0;
+    padding: 50px;
+  }
+  .gallery-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .gallery-container img {
+    width: 100%;
+  }
+  .gallery-image,
+  .gallery-info {
+    width: 100%;
+  }
+  .section-description {
+    padding: 0 60px;
+  }
+  .info-container {
+    margin: 30px;
+  }
+}
+
+.hide {
+  display: none;
 }
